@@ -1,0 +1,36 @@
+.instroduce{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    height: auto;
+    .container{
+        width: 1200px; 
+        display: flex;
+        padding: 30px 0 80px 0;
+        .instr-content{
+            margin-top: 100px;
+            margin-right: 80px;
+            h3{
+                font-size: 64px;
+                color:#ffffff;
+            }
+            p{
+                font-size: 24px;
+                color:#ffffff;
+                line-height: 1.5;
+                margin-bottom: 10px;
+            }
+            .instr-img{
+                display: inline-block;
+                width: 128px;height: 98px;
+
+            }
+        }
+        .three-imgs{
+            margin-top: 100px;
+            display: flex;
+            img{
+                margin-right: 15px;
+                height: 600px;
+            }
+        }
+    }
+}

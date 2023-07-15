@@ -1,0 +1,38 @@
+.projects{
+    background-color: #ffffff;
+    .container{
+        padding:160px 0;
+        margin: 0 auto;
+        h5{
+            display: inline-block;
+            font-size: 64px;
+            line-height: 96px;
+            margin-left: 570px;
+        }
+        .project-content{
+            display: flex;
+            justify-content: center;
+            .pro-img{
+                margin-right: 15px;
+                img{
+                    object-fit: cover;
+                }
+            }
+            .content{
+                .imgWithContent{
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 30px;
+                    img{
+                        margin-right: 15px;
+                    }
+                }
+                .twoPic{
+                    img{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

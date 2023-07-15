@@ -1,0 +1,48 @@
+.banner{
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        .banner-img{
+            padding-right: 20px;
+            margin-top: 72px;
+            object-fit: cover;
+            img{
+                width:636px; height:848px;
+            }
+        }
+    }
+}
+.banner-content{
+    width: 636px;
+    margin-top: 232px;
+    h1{
+        font-size: 64px;
+        color:#FFFFFF;
+    }
+    h2{
+        font-size: 128px;
+        color:#00FFA3;
+        text-align: end;
+    }
+    .btn{
+        text-align: end;
+        float: right;
+        background-color: #FFFFFF;
+        color:#000;
+        i{
+            color:#000;
+            font-size: 16px;
+        }
+        &:hover{
+            background-color: #000;
+            color:#FFFFFF;
+            border:1px solid #FFFFFF;
+            i{
+                color:#FFFFFF;
+            }
+        }
+    }
+}

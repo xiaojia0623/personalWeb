@@ -1,0 +1,33 @@
+.contact{
+    background: linear-gradient(to bottom,#050014, #01021EE3);
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:90px;
+        .contact-title{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h4{
+                color: #ffffff;
+                font-size:64px;
+                line-height: 96px;
+            }
+        }
+        .contact-icons{
+            margin-left: 10px;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 162px;height: 162px;
+                object-fit: cover;
+                padding: 5px;
+                &:hover{
+                    background-color:#3337c2;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
