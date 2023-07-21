@@ -234,10 +234,11 @@ table {
   margin: 0 auto;
 }
 .projects .container h3 {
+  width: 500px;
   display: inline-block;
   font-size: 64px;
   line-height: 96px;
-  margin-left: 570px;
+  margin-left: auto;
 }
 .projects .container .project-content {
   display: flex;
