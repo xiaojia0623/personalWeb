@@ -237,8 +237,8 @@ table {
   margin: 0 auto;
 }
 .projects .container h3 {
-  width: 500px;
-  display: inline-block;
+  width: 600px;
+  display: block;
   font-size: 64px;
   line-height: 96px;
   margin-left: auto;
@@ -261,8 +261,10 @@ table {
 .projects .container .project-content .content .imgWithContent img {
   margin-right: 15px;
 }
+.projects .container .project-content .content .imgWithContent .contentAndBtn p {
+  margin-bottom: 85px;
+}
 .projects .container .project-content .content .imgWithContent .contentAndBtn .btn {
-  margin-top: auto;
   margin-right: auto;
   background-color: black;
   color: #ffffff;
