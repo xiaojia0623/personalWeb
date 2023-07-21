@@ -5,9 +5,9 @@
         display: flex;
         justify-content: center;
         padding-bottom: 50px;
+        margin-top: 72px;
         .banner-img{
             padding-right: 20px;
-            margin-top: 72px;
             object-fit: cover;
             img{
                 width:636px; height:848px;
@@ -17,7 +17,7 @@
 }
 .banner-content{
     width: 636px;
-    margin-top: 232px;
+    align-self: center;
     h1{
         font-size: 64px;
         color:#FFFFFF;
