@@ -261,13 +261,15 @@ table {
 .projects .container .project-content .content .imgWithContent img {
   margin-right: 15px;
 }
-.projects .container .project-content .content .imgWithContent .contentAndBtn p {
-  margin-bottom: 85px;
-}
 .projects .container .project-content .content .imgWithContent .contentAndBtn .btn {
+  margin-top: auto;
   margin-right: auto;
   background-color: black;
   color: #ffffff;
+}
+.projects .container .project-content .content .imgWithContent .contentAndBtn .btn:hover {
+  background-color: white;
+  color: #000;
 }
 .projects .container .project-content .content .twoPic img {
   margin-right: 10px;
