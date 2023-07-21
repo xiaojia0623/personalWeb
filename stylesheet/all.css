@@ -67,10 +67,11 @@ table {
   justify-content: space-between;
   padding: 20px 0 0 0;
 }
-.menu .menu-name li {
+.menu .menu-name {
   color: #D1D1D1;
 }
-.menu .menu-name li a {
+.menu .menu-name a {
+  color: #D1D1D1;
   text-decoration: none;
 }
 
