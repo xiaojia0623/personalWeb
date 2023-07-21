@@ -19,13 +19,17 @@
             margin-left: 10px;
             display: flex;
             justify-content: center;
-            img{
-                width: 162px;height: 162px;
-                object-fit: cover;
-                padding: 5px;
-                &:hover{
-                    background-color:#3337c2;
-                    border-radius: 10px;
+            li{
+                a{
+                    img{
+                        width: 162px;height: 162px;
+                        object-fit: cover;
+                        padding: 5px;
+                        &:hover{
+                            background-color:#3337c2;
+                            border-radius: 10px;
+                        }
+                    }
                 }
             }
         }

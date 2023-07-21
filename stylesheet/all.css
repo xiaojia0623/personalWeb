@@ -215,13 +215,13 @@ table {
   display: flex;
   justify-content: center;
 }
-.contact .container .contact-icons img {
+.contact .container .contact-icons li a img {
   width: 162px;
   height: 162px;
   object-fit: cover;
   padding: 5px;
 }
-.contact .container .contact-icons img:hover {
+.contact .container .contact-icons li a img:hover {
   background-color: #3337c2;
   border-radius: 10px;
 }
