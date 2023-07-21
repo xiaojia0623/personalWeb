@@ -30,8 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-  line-height: 1.2;
-  font-family: Bruno Ace SC;
+  line-height: 1.5;
+  font-family: "Bruno Ace SC", "serif";
   background-color: #000;
 }
 
@@ -58,7 +58,7 @@ table {
   background-color: #000;
 }
 .header .container {
-  max-width: 1200px;
+  max-width: 1296px;
   margin: 0 auto;
 }
 
@@ -70,19 +70,18 @@ table {
 .menu .menu-name a {
   color: #D1D1D1;
   text-decoration: none;
-  font-size: 16px;
 }
 
 .banner .container {
-  width: 1200px;
+  width: 1296px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
+  margin-top: 72px;
 }
 .banner .container .banner-img {
   padding-right: 20px;
-  margin-top: 72px;
   object-fit: cover;
 }
 .banner .container .banner-img img {
@@ -92,7 +91,7 @@ table {
 
 .banner-content {
   width: 636px;
-  margin-top: 232px;
+  align-self: center;
 }
 .banner-content h1 {
   font-size: 64px;
@@ -111,7 +110,6 @@ table {
 }
 .banner-content .btn i {
   color: #000;
-  font-size: 16px;
 }
 .banner-content .btn:hover {
   background-color: #000;
@@ -127,7 +125,7 @@ table {
   height: auto;
 }
 .instroduce .container {
-  width: 1200px;
+  width: 1296px;
   display: flex;
   padding: 30px 0 80px 0;
 }
@@ -174,21 +172,23 @@ table {
 }
 .about .container .card-item .items {
   line-height: 1.5;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 .about .container .card-item .items h4 {
   font-size: 20px;
 }
-.about .container .card-item .items p {
-  font-size: 16px;
-}
 .about .container .aboutMe {
   line-height: 1.5;
 }
-.about .container .aboutMe h5 {
+.about .container .aboutMe h3 {
   font-size: 64px;
 }
 .about .container .aboutMe p {
   font-size: 24px;
+}
+
+.un-style {
+  list-style-type: none;
 }
 
 .contact {
@@ -205,7 +205,7 @@ table {
   justify-content: center;
   align-items: center;
 }
-.contact .container .contact-title h4 {
+.contact .container .contact-title h3 {
   color: #ffffff;
   font-size: 64px;
   line-height: 96px;
@@ -233,7 +233,7 @@ table {
   padding: 160px 0;
   margin: 0 auto;
 }
-.projects .container h5 {
+.projects .container h3 {
   display: inline-block;
   font-size: 64px;
   line-height: 96px;
@@ -265,7 +265,6 @@ table {
   padding: 40px;
 }
 .footer p {
-  font-size: 16px;
   text-align: center;
   color: #FFFFFF;
 }/*# sourceMappingURL=all.css.map */
