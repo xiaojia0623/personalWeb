@@ -262,6 +262,7 @@ table {
   margin-right: 15px;
 }
 .projects .container .project-content .content .imgWithContent .contentAndBtn .btn {
+  margin-top: auto;
   margin-right: auto;
   background-color: black;
   color: #ffffff;
