@@ -258,6 +258,10 @@ table {
 .projects .container .project-content .content .imgWithContent img {
   margin-right: 15px;
 }
+.projects .container .project-content .content .imgWithContent .btn {
+  background-color: black;
+  color: #ffffff;
+}
 .projects .container .project-content .content .twoPic img {
   margin-right: 10px;
 }
