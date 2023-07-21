@@ -260,7 +260,8 @@ table {
 .projects .container .project-content .content .imgWithContent img {
   margin-right: 15px;
 }
-.projects .container .project-content .content .imgWithContent .btn {
+.projects .container .project-content .content .imgWithContent .contentAndBtn .btn {
+  margin-right: auto;
   background-color: black;
   color: #ffffff;
 }
